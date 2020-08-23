@@ -542,11 +542,16 @@ body:after {
     margin: 0;
     list-style: none;
     position: relative; }
-    .site-mobile-menu .site-nav-wrap a {
+    .site-mobile-menu .site-nav-wrap .nrl {
       padding: 10px 20px;
       display: block;
       position: relative;
       color: #212529; }
+      .site-mobile-menu .site-nav-wrap .cnt {
+      padding: 10px 20px;
+      display: block;
+      position: relative;
+      color: #fff; }
       .site-mobile-menu .site-nav-wrap a:hover {
         color: #037ef3; }
     .site-mobile-menu .site-nav-wrap li {
