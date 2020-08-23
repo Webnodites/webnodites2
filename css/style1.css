@@ -1,0 +1,16 @@
+.all h1{
+  font-size: 70px;
+    color: #000c2d;
+    font-weight: 900;
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {
+  .all h1{
+  font-size: 50px;
+    color: #000c2d;
+    font-weight: 900;
+}
+
+}
