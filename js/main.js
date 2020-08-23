@@ -161,29 +161,18 @@ jQuery(document).ready(function($) {
 			});
 		}
 
-		$('.slide-one-item').owlCarousel({
-	    center: false,
-	    items: 1,
-	    loop: true,
-			stagePadding: 0,
-	    margin: 0,
-	    autoplay: true,
-	    pauseOnHover: false,
-	    nav: true,
-	    animateIn: 'fadeIn',
-	    animateOut: 'fadeOut',
-	    navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']
-	  });
+		
 
 	  $('.owl-carousel-one').owlCarousel({
 	    center: false,
 	    items: 1,
 	    loop: true,
-			stagePadding: 0,
+		stagePadding: 0,
 	    margin: 0,
-	    autoplay: true,
+	    autoplay: false,
 	    pauseOnHover: false,
 	    nav: true,
+	    dots:false,
 	    smartSpeed:1000,
 	    navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']
 	  });
