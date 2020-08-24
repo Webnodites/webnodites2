@@ -29,16 +29,19 @@ body {
 video{
       border: 2px solid #000c2d;
     border-radius: 30px 0 30px 0;
-    height: 600px;
+    height: 560px;
+    width:90%;
 }
 @media (max-width: 991px) {
   video{
     height: 400px;
+
 }
 }
 @media (max-width: 767px) {
     video{
-    height: 300px;
+    height: 250px;
+     width: 100%;
 }
 }
 .mission-title{
@@ -84,6 +87,8 @@ video{
 }
 .visit-btn:focus{
   outline: none;
+  background-color: white ;
+   color: #000c2d;
 }
 .visit-btn:hover{
   color: white;
@@ -109,7 +114,29 @@ video{
   color: #000d31;
 }
 
-
+.prj{
+  text-align: center;
+}
+.prj h1{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.32;
+  letter-spacing: 1.9px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #000000;
+}
+.prj .touch-btn{
+      border-radius: 63px;
+    background-color: #000923;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 7.38px;
+    text-align: left;
+    color: white;
+    padding: 15px 40px;
+}
 
 ::-moz-selection {
   background: #000;
@@ -216,25 +243,74 @@ body:after {
 
 .site-footer {
   padding: 4em 0;
-  background: #333333; }
+    background-color: #000d31;
+     }
+     
   @media (min-width: 768px) {
     .site-footer {
-      padding: 8em 0; } }
-  .site-footer .border-top {
-    border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
+      } 
+    }
+
+  .border-top {
+    padding:20px;
+     }
+   .border-top p{
+    margin:0; 
+     font-size: 20px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: 4.32px;
+    color: #000d31;
+   }
+   .sc li{
+    text-align: left;
+    margin-bottom: 15px;
+   }
+   .sc li img{
+     padding-right: 20px;
+
+   }
+
   .site-footer p {
     color: #737373; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
     color: #fff; }
+
   .site-footer a {
-    color: #999999; }
+    font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.88;
+  letter-spacing: 1.83px;
+  text-align: center;
+  color: white;
+   }
+
     .site-footer a:hover {
       color: white; }
-  .site-footer ul li {
-    margin-bottom: 10px; }
+  .ulc li {
+    margin-bottom: 10px; 
+   text-align: center;
+  }
+
   .site-footer .footer-heading {
-    font-size: 16px;
-    color: #fff; }
+    font-size: 25px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.83px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.49);
+   }
+  .footer-heading1{
+    font-size: 60px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: 1.95px;
+  text-align: center;
+  color: white;
+  }
+
 
 .bg-text-line {
   display: inline;
@@ -671,8 +747,6 @@ body:after {
 .site-blocks-cover {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
-  background-position: center center;
   background-image: url(../images/bg.jpg); }
   .site-blocks-cover.overlay {
     position: relative; }
@@ -846,7 +920,9 @@ body:after {
 
 .block-13, .slide-one-item {
   position: relative;
-  z-index: 1; }
+  z-index: 1; 
+ text-align: center;
+}
   .block-13 .owl-nav, .slide-one-item .owl-nav {
     position: relative;
     position: absolute;
@@ -2098,6 +2174,38 @@ figure figcaption {
   color: #000d31;
 
 }
+.process h3{
+      font-size: 30px;
+    font-weight: 500;
+    line-height: 0.24;
+    letter-spacing: 1.94px;
+    text-align: left;
+    color: #000000;
+}
+.process i{
+  color:rgba(0, 14, 53, 0.53);
+  cursor: pointer;
+  padding-left:15px; 
+}
+.process p{
+  font-size: 16px;
+    text-align: left;
+}
+.procdiv{
+  display: none;
+}
+.process .bx{
+  padding: 15px 0;
+}
+.imgbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgbox img{
+  width: 100%;
+}
+
 @media (max-width: 991px) {
   .visit-btn {
     bottom: 25px;
@@ -2106,6 +2214,22 @@ figure figcaption {
   .testimony{
       margin-top: 50px;
       padding: 50px 50px;
+  }
+  .footer-heading1 {
+    font-size: 40px;
+  }
+  .site-footer .footer-heading {
+    font-size: 22px;
+  }
+  .site-footer a {
+    font-size: 14px;
+  }
+  .border-top p {
+    margin: 0;
+    font-size: 16px;
+  }
+  .process h3 {
+    font-size: 25px;
   }
 }
 @media (max-width: 767px) {
@@ -2147,6 +2271,32 @@ figure figcaption {
   .owl-nav{
     display: none;
   }
+  .prj h1{
+  font-size: 25px;
+  }
+  .prj .touch-btn{
+    font-size: 20px;
+    letter-spacing: 3.38px;
+    padding: 13px 20px;
+  }
+  .process h3 {
+    font-size: 20px;
+  }
+
+  .site-footer a {
+    font-size: 14px;
+  }
+  .footer-heading1 {
+    font-size: 50px;
+  }
+  .sc li {
+    text-align: center;
+  }
+  .border-top p {
+    margin: 0;
+    font-size: 12px;
+  }
+
 }
 
 @media (max-width: 991.98px) {
