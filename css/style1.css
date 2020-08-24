@@ -12,6 +12,50 @@
 
 
 /*portfolio page style*/
+
+.Rectangle-168 
+{
+  width: 645px;
+  height: 895px;
+}
+
+.Rectangle-169 
+{
+  width: 597px;
+  height: 829px;
+}
+
+.Name-of-Project 
+{
+  width: 362px;
+  height: 56px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: 2.92px;
+  text-align: center;
+  color: #000d31;
+  padding-top: 10px;
+}
+
+.a-liitle-about-it 
+{
+  width: 250px;
+  height: 40px;
+  opacity: 0.49;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000d31;
+}
 /*end portfolio page style */
 
 /*blog page style*/
