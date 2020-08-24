@@ -29,16 +29,19 @@ body {
 video{
       border: 2px solid #000c2d;
     border-radius: 30px 0 30px 0;
-    height: 600px;
+    height: 560px;
+    width:90%;
 }
 @media (max-width: 991px) {
   video{
     height: 400px;
+
 }
 }
 @media (max-width: 767px) {
     video{
-    height: 300px;
+    height: 250px;
+     width: 100%;
 }
 }
 .mission-title{
@@ -84,6 +87,8 @@ video{
 }
 .visit-btn:focus{
   outline: none;
+  background-color: white ;
+   color: #000c2d;
 }
 .visit-btn:hover{
   color: white;
@@ -109,7 +114,29 @@ video{
   color: #000d31;
 }
 
-
+.prj{
+  text-align: center;
+}
+.prj h1{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.32;
+  letter-spacing: 1.9px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #000000;
+}
+.prj .touch-btn{
+      border-radius: 63px;
+    background-color: #000923;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 7.38px;
+    text-align: left;
+    color: white;
+    padding: 15px 40px;
+}
 
 ::-moz-selection {
   background: #000;
@@ -671,8 +698,6 @@ body:after {
 .site-blocks-cover {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
-  background-position: center center;
   background-image: url(../images/bg.jpg); }
   .site-blocks-cover.overlay {
     position: relative; }
@@ -846,7 +871,9 @@ body:after {
 
 .block-13, .slide-one-item {
   position: relative;
-  z-index: 1; }
+  z-index: 1; 
+ text-align: center;
+}
   .block-13 .owl-nav, .slide-one-item .owl-nav {
     position: relative;
     position: absolute;
@@ -2146,6 +2173,14 @@ figure figcaption {
   }
   .owl-nav{
     display: none;
+  }
+  .prj h1{
+  font-size: 25px;
+  }
+  .prj .touch-btn{
+    font-size: 20px;
+    letter-spacing: 3.38px;
+    padding: 13px 20px;
   }
 }
 
