@@ -343,4 +343,13 @@ jQuery(document).ready(function($) {
 	  return false;
 	});
 
+
+$('.accordin').on('click', function(event) {
+
+    var target = $( $(this).attr('data-toggle') );
+    target.toggle();
+  
+
+});
+
 });
