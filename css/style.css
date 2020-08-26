@@ -2302,4 +2302,9 @@ figure figcaption {
 @media (max-width: 991.98px) {
   .owl-style-md .owl-nav {
     display: none; } }
-
+.Rectangle-186 {
+  width: 1640px;
+  height: 525px;
+  box-shadow: 0 3px 6px 0 rgba(0, 13, 49, 0.31);
+  border: solid 1px #707070;
+}
