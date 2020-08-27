@@ -236,7 +236,316 @@
 }
 /*end blog page style */
 
+
+
+
+
+
+
 /*contact page style*/
+
+.Email-us 
+{
+  width: 144px;
+  height: 10px;
+  opacity: 0.55;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.59;
+  letter-spacing: 4.08px;
+  text-align: left;
+  color: #000923;
+  padding-left: 24px;
+}
+.webnoditeswebnditescom 
+{
+  width: 502px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.16;
+  letter-spacing: 1.15px;
+  text-align: left;
+  color: #000e35;
+  padding-left: 24px;
+}
+
+.Call-us 
+{
+  width: 125px;
+  height: 10px;
+  opacity: 0.55;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: 4.08px;
+  text-align: left;
+  color: #000923;
+  padding-left: 24px;
+  padding-top: 50px;
+}
+
+.Contact-no 
+{
+  width: 292px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 1.15px;
+  text-align: left;
+  color: #000e35;
+  padding-left: 24px;
+  padding-top: 17.5px;
+}
+
+.Social 
+{
+  width: 104px;
+  height: 80px;
+  opacity: 0.55;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: 4.08px;
+  text-align: left;
+  color: #000923;
+  padding-left: 24px;
+  padding-top: 50px;
+}
+
+.Facebook 
+{
+  width: 167px;
+  height: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 1.15px;
+  text-align: left;
+  color: #000e35;
+  padding-left: 24px;
+  padding-top: 17.5px;
+}
+
+.Instagram 
+{
+  width: 181px;
+  height: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 1.15px;
+  text-align: left;
+  color: #000e35;
+  padding-left: 24px;
+  padding-top: 17.5px;
+}
+
+.Twitter 
+{
+  width: 119px;
+  height: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 1.15px;
+  text-align: left;
+  color: #000e35;
+  padding-left: 24px;
+  padding-top: 17.5px;
+}
+
+.Linkedin 
+{
+  width: 143px;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 1.15px;
+  text-align: left;
+  color: #000e35;
+  padding-left: 24px;
+  padding-top: 17.5px;
+}
+
+.Rectangle-215 
+{
+  width: 620px;
+  height: 690px;
+  box-shadow: 0 -10px 6px 0 rgba(0, 22, 83, 0.57);
+  background-color: #000e35;
+  padding-left: 34px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.Say-directly 
+{  
+  width: 580px;
+  height: 64px;
+  opacity: 0.85;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: 6.95px;
+  text-align: left;
+  color: #eeeeee;
+  padding-top: 30px;
+}
+
+.Rectangle-195 
+{
+  width: 550px;
+  height: 40px;
+  opacity: 0.31;
+  background-color: var(--white);
+  margin-top: 50px;
+}
+
+.Full-Name 
+{
+  width:550px;
+  height: 40px;
+  opacity: 0.25;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 7.06px;
+  text-align: left;
+  font-color: #eeeeee;
+}
+
+.Rectangle-196 
+{
+  width: 550px;
+  height: 40px;
+  opacity: 0.31;
+  background-color: var(--white);
+  margin-top: 30px;
+}
+
+.Rectangle-197 
+{
+  width: 400px;
+  height: 40px;
+  opacity: 0.31;
+  background-color: var(--white);
+}
+
+.Rectangle-198 
+{
+  width: 132px;
+  height: 40px;
+  opacity: 0.31;
+  background-color: var(--white);
+}
+
+.Phone-no 
+{
+  width: 400px;
+  height: 40px;
+  opacity: 0.25;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 7.06px;
+  text-align: left;
+  color: #eeeeee;
+}
+
+.Rectangle-216 
+{
+  width: 550px;
+  height: 40px;
+  opacity: 0.31;
+  background-color: var(--white);
+}
+
+.Rectangle-199 
+{
+  width: 550px;
+  height: 160px;
+  opacity: 0.31;
+  background-color: var(--white);
+}
+
+.Textarea 
+{
+  width:550px;
+  height: 160px;
+  opacity: 0.25;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 7.06px;
+  text-align: left;
+  font-color: #eeeeee;
+}
+
+.Rectangle-200 
+{
+  width: 550px;
+  height: 40px;
+  opacity: 0.43;
+  background-color: var(--white);
+}
+
+.Submit 
+{
+  width: 550px;
+  height: 40px;
+  opacity: 0.63;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 7.06px;
+  text-align: center;
+  color: #000;
+}
 /*end contact page style */
 
 @media (max-width: 991px) {}
