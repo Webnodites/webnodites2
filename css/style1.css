@@ -69,7 +69,7 @@
 .content .main-content{
   width: 100%;
   float: left;
-  border:1px solid red;
+ 
 
 }
 
@@ -190,18 +190,20 @@
 .new .row .col-6 img{
  width: 80%;
  height: 300px;
- border:1px solid red;
+
  border-top-right-radius: 40px;
 }*/
 .aarti{
   margin-top: 7%;
   margin-bottom: 7%;
 }
-
+.aarti  .blog-inner{
+   border:1px solid black;
+}
 
 #blog{
   padding: 12px;
-  border:1px solid red;
+ 
   width: 100%;
 
 }
@@ -210,29 +212,69 @@
   height: 370px;
 }
 #blog a{
-   background-color: black  ;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
+  border-radius: 25px;
+  border: solid 1px #000c2d;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 2.13px;
+  text-align: left;
+  color: #000d31
 }
-#blog a:hover{opacity: 1
+
 
 }
 #blog p{
   padding: 1px;
+  font-family: poppins;
+}
+#blog h1{
+  font-family: Poppins;
+  font-size: 37px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: 3.15px;
+  text-align: left;
+  color: #000d31
 }
 #blog .date{
   float: right; 
   padding-right: 50px ;
-   border:1px solid red;
+  
+  opacity: 0.62;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: 1.45px;
+  text-align: left;
+  color: #000d31;
+  
+}
+#blog .authore{
+
+  opacity: 0.71;
+  font-family: Poppins;
+  
+  font-weight: 600px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 2.55px;
+  text-align: left;
+  color: #000d31
 }
 #blog .img-area img{
   border-top-right-radius: 30px;
+ box-shadow: 5px 0 3px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2px rgba(0, 14, 53, 0.3);
 }
 /*end blog page style */
 
