@@ -17,14 +17,14 @@
     color: #000d31;
 }
 .headservice a{
-       border-radius: 33px;
-    background-color: #000c2d;
-    font-size: 35px;
+      border-radius: 63px;
+    background-color: #000923;
+    font-size: 25px;
     font-weight: 500;
+    line-height: 1.5;
     text-align: left;
     color: white;
-    padding: 5px 20px;
-    margin-top: 20px;
+    padding: 10px 40px;
 }
 .servicesbx{
 	padding:50px 0; 
