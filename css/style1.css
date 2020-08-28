@@ -136,6 +136,7 @@ text-align: center;
   padding-left: 200px;*/
   width: 100%;
 
+
 }
 #blog img {
   width: 100%;
@@ -168,7 +169,7 @@ text-align: center;
   font-stretch: normal;
   font-style: normal;
   
-  letter-spacing: 3.15px;
+  letter-spacing: 1px;
   text-align: left;
   color: #000d31
 }
@@ -183,7 +184,7 @@ text-align: center;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.35;
-  letter-spacing: 1.45px;
+  letter-spacing: 1px;
   text-align: left;
   color: #000d31;
   
@@ -471,18 +472,17 @@ option{
     font-weight: 900;
 }
 #blog{
- 
- padding-left: 40px;
- padding-right: 40px;
-
+ margin: 0px;
 }
+
 #blog .authore{
-  font-size: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
 
 }
 #blog .date{
-  font-size: 10px;
-  padding: 0;
+  display: none;
 }
 #blog img{
  
@@ -493,12 +493,17 @@ height: 230px;
 #detail{
   padding-left: 10px;
   display: none;
-  border:1px solid red; 
-  
+  border:1px solid red;
+
 }
 #blog h1{
+ 
   padding:10px;
+  position: relative;
   font-size:20px;
+  letter-spacing: 1px;
+  text-align: center;
+
 }
 
 #blog a{
@@ -530,7 +535,13 @@ height: 230px;
   box-shadow: 0 3px 6px 0 rgba(0, 13, 49, 0.31);
   border: solid 1px #707070;
   border-top-right-radius: 30px;
+  padding: 0px;
+  margin: 0px;
   
+}
+.blog_section  .blog-inner .text-area{
+  padding-top: 0px;
+  margin: 0px;
 }
 
 }
