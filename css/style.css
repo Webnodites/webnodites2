@@ -740,7 +740,7 @@ body:after {
           padding: 5px 20px;
            }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > .nrl:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > .nrl.active {
-        color: #037ef3 !important; }
+        color: #000923 !important; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > .cnt:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > .cnt.active {
         color: white !important; }
   .sticky-wrapper .shrink {
