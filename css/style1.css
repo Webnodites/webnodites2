@@ -473,16 +473,23 @@ option{
 }
 #blog{
  margin: 0px;
+ line-height: 1px
 }
 
 #blog .authore{
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 1px;
-  text-align: center;
+  margin-left: 10px 
+  
 
 }
 #blog .date{
+  margin-right: 0px;
+  font-size:15px; 
+}
+#blog .date .time{
   display: none;
+
 }
 #blog img{
  
