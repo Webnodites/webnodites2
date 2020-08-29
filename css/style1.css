@@ -386,11 +386,16 @@ option{
   height: 50px;
   font-size: 20px;
 }
+#blog img {
+  width: 100%;
+  height: 200px;
+}
 
 }
 @media (max-width: 767px) {
   #blog a{
     position: absolute;
+
 
   }
 }
@@ -461,6 +466,21 @@ option{
 #blog h1{
   padding:10px;
   font-size:28px;
+}
+#blog .authore{
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-left: 10px 
+  
+
+}
+#blog .date{
+  margin-right: -30px;
+  font-size:15px; 
+}
+#blog .date .time{
+  display: none;
+
 }
 
 }
