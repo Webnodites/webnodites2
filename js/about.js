@@ -3,7 +3,8 @@ jQuery(document).ready(function($) {
    $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    nav:false,
+    nav:true,
+    navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">'],
     responsive:{
         0:{
             items:1

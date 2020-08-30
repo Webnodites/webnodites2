@@ -496,7 +496,7 @@ option{
   margin: 40px;
 }
 .fourth_section .contain .row .col-12{
-  
+    
   margin: 35px;
 }
 .fourth_section .contain .row p{
@@ -600,8 +600,8 @@ option{
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.55;
-  letter-spacing: 0.81px;
+  
+  
   text-align: center;
   color: #000d31;
 }
@@ -616,11 +616,22 @@ option{
   font-size: 35px;
 
 }
-.second_section .row{
-  width: 100%;
+.second_section .row .col-12 {
+    background-color: #f0f0f0; ;
+   padding: 20px;
+   margin: 0px;
+
+}
+.second_section .row {
+ 
+  margin: 0px;
+  padding: 0px;
+  
   
 }
 .third_section .slider_box{
+  width: 100%;
+
  height: 400px;
 }
 .fourth_section .row{
