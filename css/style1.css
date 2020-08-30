@@ -438,9 +438,18 @@ option{
 
 }
 /* start about as*/
+.first_section{
+  
+  
+}
+.second_section{
+  padding: 50px;
+  
+}
+
 
 .first_section .contain{
- 
+ background-image: linear-gradient(to bottom, #fcfcfc, #0029a0 73%, #f0f0f0);
   padding: 10px;
   margin: 20px;
 }
@@ -451,7 +460,7 @@ option{
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  
+
  
   text-align: left;
   color: #000d31;
@@ -463,8 +472,13 @@ option{
  /* border:1px solid black;*/
   margin: 20px;
 }
+.third_section{
+ /* margin: 40px;*/
+
+}
 .third_section .contain{
    margin: 20px;
+
 }
 .fourth_section{
    
@@ -481,15 +495,19 @@ option{
   text-align: center;
   margin: 40px;
 }
+.fourth_section .contain .row .col-12{
+  
+  margin: 35px;
+}
 .fourth_section .contain .row p{
   text-decoration: underline;
   font-family: Poppins;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.68;
-  letter-spacing: 0.58px;
+  
+ 
   text-align: left;
   color: rgba(0, 13, 49, 0.71);
 }
@@ -500,7 +518,7 @@ option{
   font-stretch: normal;
   font-style: normal;
   line-height: 0.54;
-  letter-spacing: 4.48px;
+ 
   text-align: left;
   color: #000c2d;
 }
@@ -514,7 +532,7 @@ option{
   font-stretch: normal;
   font-style: normal;
   line-height: 0.54;
-  letter-spacing: 4.48px;
+  
   text-align: left;
   color: #000c2d;
 }
@@ -525,16 +543,18 @@ option{
   font-stretch: normal;
   font-style: normal;
   line-height: 0.54;
-  letter-spacing: 4.48px;
+  
   text-align: left;
   color: #000c2d;
 }
 .third_section .slider_box{
   ;
   
-  padding-top: 10%;
+  padding-top: 7%;
+
   text-align: center;
   height: 300px;
+  background-color: #f0f0f0;
 
 }
 .third_section .slider_box p{
@@ -543,14 +563,22 @@ option{
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  letter-spacing: 0.63px;
+  
   text-align: center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
   color: rgba(0, 13, 49, 0.71);
   
 }
+.second_section .row .col-12 .detail p{
+  
+}
 .second_section .row .col-12 {
-   background-color: var(--white);
+    background-color: #f0f0f0; ;
    padding: 30px;
+   margin: 50px;
+
 }
 .second_section .row .col-12 .heading_2{
  text-decoration: underline;
@@ -584,9 +612,16 @@ option{
 }
 @media (max-width: 767px){
 
+.second_section .contain .heading h1{
+  font-size: 35px;
+
+}
 .second_section .row{
   width: 100%;
   
+}
+.third_section .slider_box{
+ height: 400px;
 }
 .fourth_section .row{
   width: 100%;
